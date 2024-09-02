@@ -1,0 +1,39 @@
+// Color Palette
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$accent-color: #e74c3c;
+$background-color: #ecf0f1;
+$text-color: #2c3e50;
+$light-text-color: #95a5a6;
+
+// Fonts
+$font-family-primary: 'Roboto', sans-serif;
+$font-family-secondary: 'Arial', sans-serif;
+$base-font-size: 16px;
+$small-font-size: 14px;
+$large-font-size: 18px;
+$heading-font-size: 2rem;
+$subheading-font-size: 1.5rem;
+
+// Spacing
+$spacing-unit: 8px;
+$small-spacing: $spacing-unit * 0.5;  // 4px
+$medium-spacing: $spacing-unit * 1.5; // 12px
+$large-spacing: $spacing-unit * 2;    // 16px
+$extra-large-spacing: $spacing-unit * 3; // 24px
+
+// Borders
+$border-radius: 4px;
+$border-radius-large: 8px;
+$border-width: 1px;
+$border-color: #dcdcdc;
+
+// Shadows
+$box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+$box-shadow-hover: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+// Breakpoints for Responsive Design
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;

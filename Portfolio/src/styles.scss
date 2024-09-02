@@ -1,1 +1,51 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'styles/variables';
+@import 'styles/primeng-custom';
+
+body {
+  font-family: $font-family-primary;
+  background-color: $background-color;
+  color: $text-color;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $text-color;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: $large-spacing;
+}
+
+.button {
+  background-color: $primary-color;
+  color: white;
+  padding: $spacing-unit $large-spacing;
+  border: none;
+  border-radius: $border-radius;
+  cursor: pointer;
+  box-shadow: $box-shadow;
+}
+
+.button:hover {
+  background-color: darken($primary-color, 10%);
+  box-shadow: $box-shadow-hover;
+}
+
+@media (max-width: $breakpoint-md) {
+  .container {
+    width: 90%;
+    padding: $medium-spacing;
+  }
+}

@@ -1,0 +1,31 @@
+@import '//Portfolio/node_modules/primeng/resources/themes/saga-blue/theme.css';
+@import '//Portfolio/node_modules/primeng/resources/primeng.min.css';
+@import '//Portfolio/node_modules/primeicons/primeicons.css';
+
+:root {
+  --primary-color: #3498db;
+  --primary-color-dark: darken(#3498db, 10%);
+  --secondary-color: #2ecc71;
+  --accent-color: #e74c3c;
+  --background-color: #ecf0f1;
+  --text-color: #2c3e50;
+  --light-text-color: #95a5a6;
+
+  --font-family-primary: 'Roboto', sans-serif;
+  --font-family-secondary: 'Arial', sans-serif;
+}
+
+body {
+  font-family: var(--font-family-primary);
+}
+
+.p-button {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+  color: white !important;
+
+  &:hover {
+    background-color: var(--primary-color-dark) !important;
+    border-color: var(--primary-color-dark) !important;
+  }
+}

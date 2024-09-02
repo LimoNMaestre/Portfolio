@@ -1,0 +1,30 @@
+.sidebar {
+  width: 250px; /* Adjust width as needed */
+  height: 100%; /* Full height */
+  position: fixed;
+  top: 60px; /* Height of the header */
+  left: 0;
+  bottom: 0;
+  background-color: #f28f8f; /* Sidebar background color */
+  overflow-y: auto; /* Enable scrolling if content exceeds height */
+  
+  .sidebar-nav {
+    ul {
+      list-style-type: none;
+      padding: 20px;
+      
+      li {
+        margin-bottom: 10px;
+        
+        a {
+          color: #333333; /* Sidebar link color */
+          text-decoration: none;
+          
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}

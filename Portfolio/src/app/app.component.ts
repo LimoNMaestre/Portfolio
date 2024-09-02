@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
+import { SideComponent } from './components/side/side.component';
 
 @Component({
   selector: 'app-root',
@@ -10,6 +11,7 @@ import { HeaderComponent } from './components/header/header.component';
     RouterOutlet,
     FooterComponent,
     HeaderComponent,
+    SideComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
